@@ -1,6 +1,6 @@
 ﻿Console.Clear();
-// Console.SetCursorPosition(10, 4);
-// Console.WriteLine("+");
+//Console.SetCursorPosition(10, 4);
+//Console.WriteLine("+");
 
 int xa = 40, ya = 1,
     xb = 1, yb = 30,
@@ -22,7 +22,7 @@ int count = 0;
 
 while (count < 10000)
 {
-    int what = new Random().Next(0, 3); //полуинтервал [0;3) 0 1 2 
+    int what = new Random().Next(0, 3); // [0;3) 0 1 2
     if (what == 0)
     {
         x = (x + xa) / 2;
@@ -45,6 +45,3 @@ while (count < 10000)
     Console.WriteLine("+");
     count++;
 }
-
-
-
